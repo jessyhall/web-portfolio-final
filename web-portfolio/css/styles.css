@@ -1,0 +1,47 @@
+body {
+  font-family: georgia;
+  background-color: #fdf5e6}
+h1 {
+  color: #fdf5e6;
+  background-color: #ffc0cb;
+  text-align: center;
+  font-size: 45px}
+h2 {
+  color: #fdf5e6;
+  background-color: #ffc0cb;
+  text-align: center;
+  font-family: georgia}
+p {
+  font-family: arial;
+  color: #000000}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%}
+audio {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;}
+a:link {
+  color: #c71585}
+a:visited {
+  color: #9370db}
+li {
+  display: inline;
+  padding: 5px;}
+#nav, #feature, .article, #footer {
+    margin-top: 20px;
+    text-align: center}
+#feature, .article {
+    height: 100px;}
+
+.column {
+    float: left;
+    width: 50%;}
+
+    /* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;}
